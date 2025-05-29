@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tamer Bajnouk | Digital Business Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    h2 {
+      margin-top: 0.2rem;
+      font-size: 1.1rem;
+      color: #666;
+    }
+    .info {
+      margin-top: 1rem;
+      font-size: 1rem;
+    }
+    .info a {
+      color: #007aff;
+      text-decoration: none;
+    }
+    .qr {
+      margin-top: 1.5rem;
+    }
+    .qr img {
+      width: 150px;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Tamer Bajnouk</h1>
+    <h2>Genius – Apple</h2>
+    <div class="info">
+      <p>📞 (973) 866-9303</p>
+      <p>📧 <a href="mailto:mrbajnouk@gmail.com">mrbajnouk@gmail.com</a></p>
+      <p>📷 <a href="https://www.instagram.com/bajnouk/" target="_blank">@bajnouk</a></p>
+    </div>
+    <div class="qr">
+      <img src="Tamer_Bajnouk_QR.png" alt="QR Code to save contact info" />
+      <p style="font-size: 0.9rem; color: #777;">Scan to save my contact</p>
+    </div>
+  </div>
+</body>
+</html>
